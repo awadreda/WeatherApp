@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* Fonts CUSTOM */
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'IBM';
+  src: url('/public/Fonts/IBM/IBMPlexSansArabic-Bold.ttf');
+  font-weight: 700;
+}
+/* Fonts CUSTOM */
